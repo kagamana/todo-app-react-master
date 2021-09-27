@@ -11,10 +11,9 @@ function App(){
         placeholder='Thêm việc cần làm ...'
         elemAfterInput={
           <Button isDisabled={false} appearance='primary'>
-            Thêm
+            Thêm công việc
           </Button>
         }
-        css={{ padding: "2px 4px 2px" }}
       ></TextField>
       <TodoList/>
     </>
